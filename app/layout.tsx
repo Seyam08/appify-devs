@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "AppifyDevs",
-  description: "lorem ipsum dolor sit amet consectetur adipisicing elit",
+  title: "Appify Admin Dashboard",
+  description: "Responsive analytics dashboard with KPIs, charts, filters, and production-ready UI patterns.",
 };
 
 export default function RootLayout({
@@ -27,10 +16,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body
-        suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body suppressHydrationWarning className="antialiased">
         {children}
       </body>
     </html>

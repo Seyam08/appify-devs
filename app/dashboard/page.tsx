@@ -1,8 +1,5 @@
-export default function Page() {
-  return (
-    <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to your dashboard!</p>
-    </div>
-  );
+import { DashboardShell } from "@/components/dashboard/dashboard-shell";
+
+export default function DashboardPage() {
+  return <DashboardShell />;
 }
