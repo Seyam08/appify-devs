@@ -1,0 +1,220 @@
+{
+  "stats": [
+    {
+      "id": 1,
+      "range": "30d",
+      "userType": "all",
+      "data": {
+        "totalRevenue": 54230,
+        "revenueChange": 12.4,
+        "totalUsers": 1245,
+        "usersChange": 6.2,
+        "orders": 342,
+        "ordersChange": -3.1,
+        "conversionRate": 4.3,
+        "conversionChange": 1.1
+      }
+    },
+    {
+      "id": 2,
+      "range": "7d",
+      "userType": "all",
+      "data": {
+        "totalRevenue": 13440,
+        "revenueChange": 4.9,
+        "totalUsers": 398,
+        "usersChange": 2.8,
+        "orders": 104,
+        "ordersChange": -1.4,
+        "conversionRate": 3.9,
+        "conversionChange": 0.5
+      }
+    },
+    {
+      "id": 3,
+      "range": "12m",
+      "userType": "all",
+      "data": {
+        "totalRevenue": 621300,
+        "revenueChange": 18.7,
+        "totalUsers": 14990,
+        "usersChange": 12.1,
+        "orders": 4500,
+        "ordersChange": 8.8,
+        "conversionRate": 4.7,
+        "conversionChange": 0.9
+      }
+    },
+    {
+      "id": 4,
+      "range": "30d",
+      "userType": "premium",
+      "data": {
+        "totalRevenue": 33210,
+        "revenueChange": 15.4,
+        "totalUsers": 520,
+        "usersChange": 7.6,
+        "orders": 174,
+        "ordersChange": 2.6,
+        "conversionRate": 6.1,
+        "conversionChange": 1.8
+      }
+    }
+  ],
+  "revenue": [
+    {
+      "id": 1,
+      "range": "30d",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 3200 }, { "month": "Feb", "value": 3600 }, { "month": "Mar", "value": 4200 }, { "month": "Apr", "value": 3900 }, { "month": "May", "value": 4400 }, { "month": "Jun", "value": 4800 }, { "month": "Jul", "value": 5100 }, { "month": "Aug", "value": 4950 }, { "month": "Sep", "value": 5300 }, { "month": "Oct", "value": 5600 }, { "month": "Nov", "value": 6000 }, { "month": "Dec", "value": 7180 }
+      ]
+    },
+    {
+      "id": 2,
+      "range": "7d",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 620 }, { "month": "Feb", "value": 780 }, { "month": "Mar", "value": 950 }, { "month": "Apr", "value": 880 }, { "month": "May", "value": 1120 }, { "month": "Jun", "value": 1250 }, { "month": "Jul", "value": 1330 }, { "month": "Aug", "value": 1200 }, { "month": "Sep", "value": 1010 }, { "month": "Oct", "value": 1220 }, { "month": "Nov", "value": 1410 }, { "month": "Dec", "value": 1670 }
+      ]
+    },
+    {
+      "id": 3,
+      "range": "12m",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 41200 }, { "month": "Feb", "value": 43800 }, { "month": "Mar", "value": 44500 }, { "month": "Apr", "value": 46100 }, { "month": "May", "value": 47200 }, { "month": "Jun", "value": 49100 }, { "month": "Jul", "value": 50300 }, { "month": "Aug", "value": 51200 }, { "month": "Sep", "value": 52800 }, { "month": "Oct", "value": 54800 }, { "month": "Nov", "value": 56100 }, { "month": "Dec", "value": 60200 }
+      ]
+    },
+    {
+      "id": 4,
+      "range": "30d",
+      "userType": "premium",
+      "data": [
+        { "month": "Jan", "value": 2100 }, { "month": "Feb", "value": 2300 }, { "month": "Mar", "value": 2450 }, { "month": "Apr", "value": 2400 }, { "month": "May", "value": 2640 }, { "month": "Jun", "value": 2810 }, { "month": "Jul", "value": 3020 }, { "month": "Aug", "value": 2880 }, { "month": "Sep", "value": 3210 }, { "month": "Oct", "value": 3440 }, { "month": "Nov", "value": 3670 }, { "month": "Dec", "value": 4290 }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "range": "30d",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 20 }, { "month": "Feb", "value": 24 }, { "month": "Mar", "value": 28 }, { "month": "Apr", "value": 30 }, { "month": "May", "value": 26 }, { "month": "Jun", "value": 32 }, { "month": "Jul", "value": 34 }, { "month": "Aug", "value": 30 }, { "month": "Sep", "value": 29 }, { "month": "Oct", "value": 31 }, { "month": "Nov", "value": 36 }, { "month": "Dec", "value": 42 }
+      ]
+    },
+    {
+      "id": 2,
+      "range": "7d",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 8 }, { "month": "Feb", "value": 10 }, { "month": "Mar", "value": 9 }, { "month": "Apr", "value": 11 }, { "month": "May", "value": 8 }, { "month": "Jun", "value": 12 }, { "month": "Jul", "value": 13 }, { "month": "Aug", "value": 10 }, { "month": "Sep", "value": 8 }, { "month": "Oct", "value": 9 }, { "month": "Nov", "value": 12 }, { "month": "Dec", "value": 14 }
+      ]
+    },
+    {
+      "id": 3,
+      "range": "12m",
+      "userType": "all",
+      "data": [
+        { "month": "Jan", "value": 280 }, { "month": "Feb", "value": 300 }, { "month": "Mar", "value": 320 }, { "month": "Apr", "value": 330 }, { "month": "May", "value": 342 }, { "month": "Jun", "value": 358 }, { "month": "Jul", "value": 372 }, { "month": "Aug", "value": 366 }, { "month": "Sep", "value": 388 }, { "month": "Oct", "value": 402 }, { "month": "Nov", "value": 416 }, { "month": "Dec", "value": 426 }
+      ]
+    },
+    {
+      "id": 4,
+      "range": "30d",
+      "userType": "premium",
+      "data": [
+        { "month": "Jan", "value": 14 }, { "month": "Feb", "value": 16 }, { "month": "Mar", "value": 18 }, { "month": "Apr", "value": 20 }, { "month": "May", "value": 18 }, { "month": "Jun", "value": 21 }, { "month": "Jul", "value": 23 }, { "month": "Aug", "value": 22 }, { "month": "Sep", "value": 21 }, { "month": "Oct", "value": 24 }, { "month": "Nov", "value": 27 }, { "month": "Dec", "value": 30 }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "range": "30d",
+      "userType": "all",
+      "data": [
+        { "name": "Free", "value": 700 },
+        { "name": "Premium", "value": 410 },
+        { "name": "Enterprise", "value": 135 }
+      ]
+    },
+    {
+      "id": 2,
+      "range": "7d",
+      "userType": "all",
+      "data": [
+        { "name": "Free", "value": 220 },
+        { "name": "Premium", "value": 130 },
+        { "name": "Enterprise", "value": 48 }
+      ]
+    },
+    {
+      "id": 3,
+      "range": "12m",
+      "userType": "all",
+      "data": [
+        { "name": "Free", "value": 8620 },
+        { "name": "Premium", "value": 4750 },
+        { "name": "Enterprise", "value": 1620 }
+      ]
+    },
+    {
+      "id": 4,
+      "range": "30d",
+      "userType": "premium",
+      "data": [
+        { "name": "Free", "value": 0 },
+        { "name": "Premium", "value": 410 },
+        { "name": "Enterprise", "value": 110 }
+      ]
+    }
+  ],
+  "traffic": [
+    {
+      "id": 1,
+      "range": "30d",
+      "userType": "all",
+      "data": [
+        { "source": "Organic", "value": 42 },
+        { "source": "Paid", "value": 23 },
+        { "source": "Social", "value": 18 },
+        { "source": "Referral", "value": 17 }
+      ]
+    },
+    {
+      "id": 2,
+      "range": "7d",
+      "userType": "all",
+      "data": [
+        { "source": "Organic", "value": 38 },
+        { "source": "Paid", "value": 20 },
+        { "source": "Social", "value": 24 },
+        { "source": "Referral", "value": 18 }
+      ]
+    },
+    {
+      "id": 3,
+      "range": "12m",
+      "userType": "all",
+      "data": [
+        { "source": "Organic", "value": 45 },
+        { "source": "Paid", "value": 26 },
+        { "source": "Social", "value": 15 },
+        { "source": "Referral", "value": 14 }
+      ]
+    },
+    {
+      "id": 4,
+      "range": "30d",
+      "userType": "premium",
+      "data": [
+        { "source": "Organic", "value": 31 },
+        { "source": "Paid", "value": 35 },
+        { "source": "Social", "value": 20 },
+        { "source": "Referral", "value": 14 }
+      ]
+    }
+  ]
+}
