@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { StoreProvider } from "@/components/providers/store-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AppifyDevs",
-  description: "lorem ipsum dolor sit amet consectetur adipisicing elit",
+  title: "Admin Analytics Dashboard",
+  description: "Production-ready analytics dashboard built with Next.js, Shadcn UI, Redux Toolkit, and Recharts.",
 };
 
 export default function RootLayout({
@@ -24,14 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
-      <body
-        suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );
